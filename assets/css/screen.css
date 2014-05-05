@@ -306,8 +306,8 @@ code, tt {
     font-family: Inconsolata, Consolas, Monaco, 'Andale Mono', monospace, sans-serif;
     font-size: 0.85em;
     white-space: pre-wrap;
-    background: #22313F;
-    color: #f8f8f2;
+    background: #f0f0f0;
+    color: #333333;
     border-radius: 0.3em;
 }
 
