@@ -45,14 +45,6 @@
             <form id="search">
                 <input id="search-field" placeholder="Search"/>
             </form>
-            
-            <div style="display: none;">
-              {{#foreach posts}}
-                  {{#if @index < 5}}
-                      <a href="{{url}}">{{{title}}}</a>
-                  {{/if}}
-              {{/foreach}}
-            </div>
 
             <div id="sidebar-links">
                 <ul id="sidebar-internal">
