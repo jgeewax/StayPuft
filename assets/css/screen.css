@@ -323,7 +323,6 @@ pre {
     white-space: pre;
     overflow: auto;
     background: #f0f0f0;
-    color: #333333;
     border-radius: 0.3em;
 }
 
@@ -335,7 +334,6 @@ pre code, tt {
     border: none;
     padding: 0;
     background: #f0f0f0;
-    color: #333333;
 }
 
 kbd {
