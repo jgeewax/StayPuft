@@ -621,6 +621,7 @@ margin on the iframe, cause it breaks stuff. */
     height: 70px;
     border: 2px solid #404347;
     border-radius: 75px;
+    float: left;
 }
 
 #sidebar figure.user-image img
