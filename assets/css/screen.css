@@ -971,8 +971,13 @@ main
     color: white;
 }
 
+.poweredby {
+   font-size: 0.7em;
+   text-align: center;
+}
+
 .poweredby .icon-ghost {
-    font-weight: 700;
+    font-weight: normal;
     text-decoration: none;
 }
 
