@@ -34,10 +34,10 @@
 <body class="{{body_class}}">
 
     <div id="sidebar" {{#if @blog.cover}}style="background-image: url({{@blog.cover}})"{{/if}}>
-        <figure class="user-image">
-            <img src="//www.gravatar.com/avatar/be7454bf6e317d8db7e8609a861f6382" alt="jgeewax" />
-        </figure>
         <div id="sidebar-content" class="inner">
+            <figure class="user-image">
+                <img src="//www.gravatar.com/avatar/be7454bf6e317d8db7e8609a861f6382" alt="jgeewax" />
+            </figure>
             {{#if @blog.logo}}<a class="blog-logo" href="{{@blog.url}}"><img src="{{@blog.logo}}" alt="Blog Logo" /></a>{{/if}}
             <h2 class="blog-title"><a href="{{@blog.url}}">{{@blog.title}}</a></h1>
             <h3 class="blog-description">{{@blog.description}}</h2>
