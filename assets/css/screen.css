@@ -868,6 +868,8 @@ main
 
 .author-image img {
     border-radius: 100%;
+    width: 50px;
+    height: auto;
 }
 
 .author-text {
