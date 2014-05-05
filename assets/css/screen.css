@@ -316,13 +316,14 @@ pre {
     box-sizing: border-box;
     margin: 1.6em 0;
     width: 100%;
-    padding: 10px;
+    padding: 10px 15px;
     font-family: Inconsolata, Consolas, Monaco, 'Andale Mono', monospace, sans-serif;
-    font-size: 0.9em;
+    font-size: 0.6em;
+    line-height: 1.3em;
     white-space: pre;
     overflow: auto;
-    background: #22313F;
-    color: #f8f8f2;
+    background: #f0f0f0;
+    color: #333333;
     border-radius: 0.3em;
 }
 
@@ -333,6 +334,8 @@ pre code, tt {
     background: transparent;
     border: none;
     padding: 0;
+    background: #f0f0f0;
+    color: #333333;
 }
 
 kbd {
