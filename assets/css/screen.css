@@ -1163,7 +1163,7 @@ main
     }
 
     main {
-        padding: 40px 8%;
+        padding: 0 8%;
     }
 }
 
@@ -1261,7 +1261,7 @@ main
     }
 
     main {
-        padding: 40px 12px;
+        padding: 0 12px;
     }
 
     .blog-description {
