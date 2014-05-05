@@ -713,6 +713,7 @@ main
     font-size: 13px;
     list-style: none inside none;
     padding: 0;
+    margin: .5em 0;
 }
 
 #sidebar-links i
@@ -971,8 +972,8 @@ main
    ========================================================================== */
 
 .site-footer {
-    position: relative;
-    margin-top: 2rem;
+    position: fixed;
+    bottom: 10px;
     max-width: 700px;
     font-family: 'Roboto', sans-serif;
     font-size: 1.3rem;
@@ -992,6 +993,7 @@ main
 .poweredby {
    font-size: 0.7em;
    text-align: center;
+   margin-top: 1em;
 }
 
 .poweredby .icon-ghost {
