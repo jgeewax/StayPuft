@@ -47,7 +47,7 @@
             </form>
             
             <div style="display: none;">
-              {#foreach posts columns=5#}
+              {{#foreach posts columns=5#}}
                   {{#if @first}}
                       <a href="{{url}}">{{{title}}}</a>
                   {{/if}}
