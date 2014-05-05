@@ -504,6 +504,8 @@ margin on the iframe, cause it breaks stuff. */
     border-bottom: #EBF2F6 1px solid;
     word-break: break-word;
     hyphens: auto;
+    padding-bottom: 2em;
+    margin-bottom: 2em;
 }
 
 /* Add a little circle in the middle of the border-bottom on our .post
